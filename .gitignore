@@ -1,1 +1,33 @@
-chatbox/.env
+Flask==3.0.3
+flask-cors==4.0.0
+python-dotenv==1.0.1
+google-generativeai==0.7.2
+
+# Python / Flask
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+*.log
+
+# Sistema/IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Dados locais / segredos
+.env
+instance/*.json
+uploads/
+*.sqlite*
+*.db
+
+# Arquivos grandes temporários
+*.7z
+*.zip
+*.rar
