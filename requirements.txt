@@ -1,0 +1,33 @@
+# requirements.txt
+```txt
+Flask==3.0.3
+```
+
+
+---
+
+
+# .gitignore
+```gitignore
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+
+venv/
+.env/
+.venv/
+
+
+instance/
+*.sqlite3
+*.db
+
+
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
